@@ -12,4 +12,4 @@ app.get("/", (req, res) => {
 
 app.use("/api/auth", authRoutes)
 
-app.listen(PORT, () => console.log('Server Running on port ${PORT}'));
+app.listen(PORT, () => console.log('Server Running on port'));
